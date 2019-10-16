@@ -1229,7 +1229,7 @@ ul.pagination-links {
     background: #fafafa;
     width: 80%;
     border-left: 14px solid #f32c4c;
-    margin: 75px 0px;
+    margin: 75px 0px 0px;
     height: 153px;
     display: flex;
     align-items: center;
@@ -1259,8 +1259,28 @@ span.quote-last {
     right: 200px;
     bottom: 11px;
 }
-
-
+.social-share-buttons-singlepsot
+{
+    display: flex;
+    align-items: center;
+}
+.follow-us ul li {
+    margin-right: 30px;
+}
+.follow-us span {
+    color: #00CA6C;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-right: 80px;
+    font-weight: 600;
+}
+.follow-us .row {
+    margin: 0px;
+    align-items: center;
+}
+.follow-us {
+    margin: 80px 0px;
+}
 
 
 
