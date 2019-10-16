@@ -1164,6 +1164,49 @@ ul.pagination-links {
     object-fit: cover;
 }
 
+
+/*adding some single post  styles*/
+.main-container-blog-singlepost {
+    padding: 115px 0px;
+}
+.heading-main {
+    width: 80%;
+    max-width: 80%;
+}
+.heading-main h1 {
+    line-height: 41px;
+    font-size: 30px;
+    font-family: Baskerville_Old_Face;
+}
+.heading-main p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgba(0,0,0,0.3);
+    margin: 20px 0px;
+}
+.heading-main img {
+    margin-right: 10px;
+}
+.row.icon-container {
+    margin: 0px;
+    margin: 40px 0px;
+}
+.row.icon-container span {
+    margin-right: 33px;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*media queries*/
 
 @media only screen and (max-width: 600px)

@@ -90,7 +90,7 @@ $(".pagination-links li").click( function(e) {
           var s = jQuery(window).scrollTop();
 
           if( s > 100 ) {
-            $("header").css({'background': '#121f28'});
+            // $("header").css({'background': '#121f28'});
             $("header").css({'padding-top': '10px'});
           }
           if( s < 100 ) {
