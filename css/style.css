@@ -1225,7 +1225,31 @@ ul.pagination-links {
     opacity: 0.7;
     margin-bottom: 30px;
 }
-
+.note-container {
+    background: #fafafa;
+    width: 80%;
+    border-left: 14px solid #f32c4c;
+    margin: 75px 0px;
+    height: 153px;
+    display: flex;
+    align-items: center;
+    padding: 00px 20px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+}
+span.quote-first {
+    position: absolute;
+    top: 11px;
+    left: 30px;
+}
+.note-container p
+{
+    width: 70%;
+    margin: auto;
+    margin-left: 30px;
+}   
 
 
 
