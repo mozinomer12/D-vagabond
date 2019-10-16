@@ -1305,8 +1305,36 @@ span.quote-last {
 {
     margin-top: 30px;
 }
+.next-prev-post a
+{
+    font-size: 13px;
+    color: #000;
+}
+.next-prev-post img {
+    margin-right: 13px;
+}
 
-
+.next-prev-post .prev-post img {
+    transform: rotate(180deg);
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.next-prev-post {
+    position: relative;
+}
+.next-prev-post .prev-post {
+    position: absolute;
+    right: 0px;
+}
+.next-prev-post ul {
+    display: flex;
+    align-items: center;
+}
+.tag-contaienr ul li:hover {
+    background: #03b161;
+    color: #fff;
+    cursor: pointer;
+}
 
 
 /*media queries*/
@@ -1336,7 +1364,8 @@ span.quote-last {
     .col-1s,
     .col-2s,
     .col-3s,
-    .evenoddrow .widthhalf
+    .evenoddrow .widthhalf,
+    .logo-containers p
     {
         width: 100%;
     }
@@ -1393,5 +1422,9 @@ span.quote-last {
         padding: 210px 20px;
         background-position: center;
         height: auto;
+    }
+    .banner-bottom-container
+    {
+        width: auto;
     }
 }
