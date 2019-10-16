@@ -1244,13 +1244,21 @@ span.quote-first {
     top: 11px;
     left: 30px;
 }
-.note-container p
-{
-    width: 70%;
+.note-container p {
+    width: 80%;
     margin: auto;
     margin-left: 30px;
+    color: #000;
+    letter-spacing: 0.6px;
+    line-height: 30px;
+    font-size: 17px;
+    opacity: 0.8;
 }   
-
+span.quote-last {
+    position: absolute;
+    right: 200px;
+    bottom: 11px;
+}
 
 
 
