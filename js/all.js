@@ -90,7 +90,7 @@ $(".pagination-links li").click( function(e) {
           var s = jQuery(window).scrollTop();
 
           if( s > 100 ) {
-            // $("header").css({'background': '#121f28'});
+            $("header").css({'background': '#121f28'});
             $("header").css({'padding-top': '10px'});
           }
           if( s < 100 ) {
@@ -99,3 +99,27 @@ $(".pagination-links li").click( function(e) {
         }
         
   });
+
+
+
+   var out = 1;
+  jQuery('#hamburger').click( function(e) {
+    e.preventDefault();
+
+    if( out )
+    {
+        jQuery('header ul').animate({'left': '0px'});
+        $(".os1").addCLass(".rotated");
+        $(".os3").addCLass(".rotated");
+        $(".os2").css(".rotated");
+        out = 0;
+        return;
+    }
+    else
+    {
+      jQuery('header ul').animate({'left': '-100%'});
+      out = 1;
+      return;
+    }
+
+    });

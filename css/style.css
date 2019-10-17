@@ -141,7 +141,7 @@ header .container {
     color: #fff;
     font-size: 13px;
 }
-p.content-banner {
+.content-banner {
     max-width: 44%;
     font-size: 14px;
     font-family: AvenirL-Black;
@@ -1335,7 +1335,9 @@ span.quote-last {
     color: #fff;
     cursor: pointer;
 }
-
+div#hamburger {
+    display: none;
+}
 
 /*media queries*/
 
@@ -1419,12 +1421,93 @@ span.quote-last {
     .banner-header
     {
         position: relative;
-        padding: 210px 20px;
+        padding: 100px 20px;
         background-position: center;
         height: auto;
+    }
+    .content-banner
+    {
+        line-height: normal;
+        max-width: 100%;
     }
     .banner-bottom-container
     {
         width: auto;
+    }
+    header 
+    {
+        padding: 9px 10px !important;
+        height: 50px;
+        align-items: center;
+        display: block;
+    }
+    header img {
+        width: 75px;
+    }
+    .news-letter-container
+    {
+        display: none;
+    }
+    header ul li {
+        margin-bottom: 20px;
+    }
+    header ul li a {
+        font-size: 20px;
+        font-family: inherit;
+        opacity: 1;
+    }
+    header ul {
+        position: fixed;
+        display: block;
+        left: -100%;
+        background: #00ca6c;
+        top: 0px;
+        bottom: 0px;
+        padding-top: 20vh;
+        padding-left: 22px;
+        padding-right: 30px;
+    }
+    div#hamburger .os3 {
+        width: 100%;
+        border-top: 2px solid #00ca6c;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+    div#hamburger .os2 {
+        width: 100%;
+        border-top: 2px solid #00ca6c;
+        display: block;
+        position: absolute;
+        top: 8px;
+        bottom: 0;
+    }
+    div#hamburger .os1 {
+        width: 100%;
+        border-top: 2px solid #00ca6c;
+        display: block;
+        position: absolute;
+        top: 0px;
+    }
+    div#hamburger {
+        position: absolute;
+        right: 0px;
+        display: block;
+        /* background: red; */
+        width: 20px;
+        height: 17px;
+    }
+    header .container
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .menu-container {
+        bottom: 0px;
+        top: 7px;
+        left: auto;
+        right: 0px;
     }
 }
